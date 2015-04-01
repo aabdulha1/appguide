@@ -1,0 +1,19 @@
+<h1>
+    EXTRA EXTRA
+    
+</h1>
+<p>
+    99 bottles
+</p>
+<%= link_to "GO WASTE TIME", "http://www.reddit.com"%> <br/>
+<%= link_to "MOST  AWESOME PROJECT",root_path %> <br/>
+<%= link_to "about page",about_path %> <br/>
+<%= image_tag "nono.jpg" %>
+<%
+i = 99
+while i>=0
+concat raw("<p>" + i.to_s + "Bottles of beer on the wall" + "</p>")
+concat raw ("<p>take one down pass it around </p>")
+i = i-1
+end
+%>
