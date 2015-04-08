@@ -6,9 +6,10 @@ Rails.application.routes.draw do
   # root 'welcome#index'
 root 'home#index'
 
-get 'calc' => 'calc#index'
-get 'calc' => 'calc#result'
-post 'calc' => 'calc#result'
+get 'home' => 'home#index'
+#get 'calc' => 'calc#result'
+#post 'calc' => 'calc#result'
+#get 'videos' => 'videos#index'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
